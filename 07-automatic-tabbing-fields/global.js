@@ -15,5 +15,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     })
 
-
 })
+
+
+/*
+
+1. Nesapratu gluži jautājumu, bet noprotu ka jautājums ir tāds "kā es pārvietojos pa input tagiem?" es pārvietojos pa input tagiem ar funkciju focus() 
+
+
+*/
