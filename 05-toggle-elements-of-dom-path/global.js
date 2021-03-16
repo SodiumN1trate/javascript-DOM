@@ -20,3 +20,11 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
 })
+
+
+/*
+
+1. Es biju izmantojis funkciju gan querySelectorAll un querySelector, jo ar to ir viss vienkāršāk un laikam ar viens no veidiem kā pārvietoties par html lapu.
+
+
+*/
