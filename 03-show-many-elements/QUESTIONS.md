@@ -6,4 +6,4 @@
 
 > How did you go about hiding elements initially?
 
-Your reply here...
+Elementus es paslēpu sākumā ar CSS. Pēc pogas nospiešanas nomainīju CSS stilu uz "initial"
