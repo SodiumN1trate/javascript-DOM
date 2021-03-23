@@ -1,21 +1,27 @@
-document.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('load', function () {
 
-    const first = document.querySelector('#first')
-    first.addEventListener('keyup', function (e) {
+    const FIRST = document.querySelector('#first')
+    FIRST.addEventListener('keyup', function (e) {
         if (e.target.value.length == 3)
         {
-            const second = document.querySelector('#second')
-            second.focus()
-            second.addEventListener('keyup', function (e) {
+            const SECOND = document.querySelector('#second')
+            SECOND.focus()
+            SECOND.addEventListener('keyup', function (e) {
                 if (e.target.value.length == 3) {
-                    const third = document.querySelector('#third')
-                    third.focus()
+                    const THIRD = document.querySelector('#third')
+                    THIRD.focus()
                 }
             })
         }
     })
 
 })
+
+
+
+
+
+
 
 
 /*

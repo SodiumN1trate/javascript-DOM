@@ -1,12 +1,25 @@
-const hideMeElements = document.querySelectorAll(".show_me")
-const button = document.querySelector("#button")
+window.addEventListener("load", function () {
+    const HIDE_ME_ELEMNTS = document.querySelectorAll(".show_me")
+    const BUTTON = document.querySelector("#button")
 
-
-button.addEventListener('click', function(e) {
-    hideMeElements.forEach(function(element) {
-        element.style.display = "initial";
+    BUTTON.addEventListener('click', function(e) {
+        HIDE_ME_ELEMNTS.forEach(function(element) {
+            element.style.display = "initial";
+        })
     })
 })
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

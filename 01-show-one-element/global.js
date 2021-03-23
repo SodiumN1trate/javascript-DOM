@@ -1,14 +1,29 @@
 window.addEventListener("load", function(){
-  const button = document.querySelector("#more_text_link")
-  const textToShow = document.querySelector("#more_text_content")
-  textToShow.style.display = "none"
+  const BUTTON = document.querySelector("#more_text_link")
+  const TEXT_TO_SHOW = document.querySelector("#more_text_content")
 
-
-  button.addEventListener('click', function(e) {
-      textToShow.style.display = "initial"
-      button.style.display = "none"
+  BUTTON.addEventListener('click', function(e) {
+    TEXT_TO_SHOW.style.display = "initial"
+    BUTTON.style.display = "none"
   })
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,18 +1,18 @@
-document.addEventListener('DOMContentLoaded', function () {
+window.addEventListener('load', function () {
 
-    const elements = document.querySelectorAll(".second_five > li")
-    const button = document.querySelector('#toggle_button')
+    const ELEMENTS = document.querySelectorAll(".second_five > li")
+    const BUTTON = document.querySelector('#toggle_button')
 
     var toggleStatus = false
-    button.addEventListener('click', function (e) {
+    BUTTON.addEventListener('click', function (e) {
         if (toggleStatus == false) {
-            elements.forEach(function (element) {
+            ELEMENTS.forEach(function (element) {
                 element.style.display = 'flex'
                 toggleStatus = true
             })
         }
         else {
-            elements.forEach(function (element) {
+            ELEMENTS.forEach(function (element) {
                 element.style.display = 'none'
                 toggleStatus = false
             })
@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
 })
+
+
+
 
 
 /*

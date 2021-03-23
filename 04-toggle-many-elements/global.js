@@ -1,20 +1,20 @@
-document.addEventListener('DOMContentLoaded', function () {
+window.addEventListener("load", function () {
 
-    const elements = document.querySelectorAll('.toggle_me')
-    const button = document.querySelector('#button')
+    const ELEMENTS = document.querySelectorAll('.toggle_me')
+    const BUTTON = document.querySelector('#button')
 
     var toggleStatus = false
-    button.addEventListener('click', function(e) {
+    BUTTON.addEventListener('click', function(e) {
         if (toggleStatus == false)
         {
-            elements.forEach(function(element) {
+            ELEMENTS.forEach(function(element) {
                 element.style.display = 'initial'
                 toggleStatus = true
             })
         }
         else
         {
-            elements.forEach(function (element) {
+            ELEMENTS.forEach(function (element) {
                 element.style.display = 'none'
                 toggleStatus = false
             })
