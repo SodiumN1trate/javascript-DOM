@@ -1,27 +1,22 @@
 window.addEventListener('load', function () {
 
     const FIRST = document.querySelector('#first')
-    FIRST.addEventListener('keyup', function (e) {
-        if (e.target.value.length == 3)
+    const SECOND = document.querySelector('#second')
+    const THIRD = document.querySelector('#third')
+    FIRST.addEventListener('keydown', function (e) {
+        if (FIRST.value.length == 3)
         {
-            const SECOND = document.querySelector('#second')
             SECOND.focus()
-            SECOND.addEventListener('keyup', function (e) {
-                if (e.target.value.length == 3) {
-                    const THIRD = document.querySelector('#third')
-                    THIRD.focus()
-                }
-            })
+        }
+    })
+    SECOND.addEventListener('keydown', function (e) {
+        if (SECOND.value.length == 3)
+        {
+            THIRD.focus()
         }
     })
 
 })
-
-
-
-
-
-
 
 
 /*
